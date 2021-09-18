@@ -66,6 +66,13 @@ footer {
   visibility: hidden;
   display: none;
 }
+.bot {
+  margin-top: 50px;
+}
+.bots {
+  display: none;
+  visibility: hidden;
+}
 
 @media only screen and (max-width: 600px) {
   .jb-title {
@@ -96,6 +103,15 @@ footer {
     font-size: 5vw;
   }
   .button-alt {
+    visibility: visible;
+    display: flex;
+  }
+  .bot {
+    margin-top: 0;
+    visibility: hidden;
+    display: none;
+  }
+  .bots {
     visibility: visible;
     display: flex;
   }
