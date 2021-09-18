@@ -1,103 +1,102 @@
 @font-face {
-    font-family: redwing;
-    src: url(assets/Redwing/Redwing-Medium.otf);
+  font-family: redwing;
+  src: url(assets/Redwing/Redwing-Medium.otf);
 }
 @font-face {
-    font-family: redwingl;
-    src: url(assets/Redwing/Redwing-Light.otf);
+  font-family: redwingl;
+  src: url(assets/Redwing/Redwing-Light.otf);
 }
 @font-face {
-    font-family: among;
-    src: url(assets/among-us/AmongUs-Regular.ttf);
+  font-family: among;
+  src: url(assets/among-us/AmongUs-Regular.ttf);
 }
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Bebas Neue', cursive;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Bebas Neue", cursive;
 }
-.bg-trans{
-    background-color: white !important;
+.bg-trans {
+  background-color: white !important;
 }
-.jb-title{
-    cursor: default;
-    margin-top: -10%;
-    font-size: 12vw;
-    text-align: center;
-    font-family: redwing;
+.jb-title {
+  cursor: default;
+  margin-top: -10%;
+  font-size: 12vw;
+  text-align: center;
+  font-family: redwing;
 }
-.jb-titles{
-    cursor: default;
-    text-align: center;
-    font-family: among !important;
-    font-size: 18vw;
+.jb-titles {
+  cursor: default;
+  text-align: center;
+  font-family: among !important;
+  font-size: 18vw;
 }
-.cn2{
-    cursor: default;
-    height: 100%;
-    color: white;
-    background-color: black;
-    border-radius: 10px;
-    padding-bottom: 20px;
+.cn2 {
+  cursor: default;
+  height: 100%;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  padding-bottom: 20px;
 }
-.cn2 h5{
-    padding-left: 30px;
-    padding-top: 30px;
+.cn2 h5 {
+  padding-left: 30px;
+  padding-top: 30px;
 }
-.um{
-    padding-top: 20px;
-    padding-left: 0;
-    text-align: center;
+.um {
+  padding-top: 20px;
+  padding-left: 0;
+  text-align: center;
 }
-.txt{
-    margin-left: 3%;
-    text-align: left;
-    font-size: 5vw;
+.txt {
+  margin-left: 3%;
+  text-align: left;
+  font-size: 5vw;
 }
-footer{
-    cursor: default;
-    margin-top: 100px;
-    background-color: black;
+footer {
+  cursor: default;
+  margin-top: 200px;
+  background-color: black;
 }
-.footer{
-    padding-top: 20px;
-    color: white;
+.footer {
+  padding-top: 20px;
+  color: white;
 }
-.button-alt{
-    visibility: hidden;
-    display: none;
+.button-alt {
+  visibility: hidden;
+  display: none;
 }
-
 
 @media only screen and (max-width: 600px) {
-    .jb-title{
-        font-size: 20vw;
-    }
-    .jb-titles{
-        font-size: 30vw;
-    }
-    .cn2 h5{
-        padding-left: 0;
-        padding-top: 30px;
-        text-align: center;
-    }
-    .cn2{
-        border-radius: 10px 10px 0 0;
-    }
-    .row{
-        display: block !important;
-    }
-    .col{
-        display: block !important;
-    }
-    footer{
-        margin-top: 0;
-    }
-    .txt{
-        text-align: center;
-        font-size: 5vw;
-    }
-    .button-alt{
-        visibility: visible;
-        display: flex;
-    }
+  .jb-title {
+    font-size: 20vw;
   }
+  .jb-titles {
+    font-size: 30vw;
+  }
+  .cn2 h5 {
+    padding-left: 0;
+    padding-top: 30px;
+    text-align: center;
+  }
+  .cn2 {
+    border-radius: 10px 10px 0 0;
+  }
+  .row {
+    display: block !important;
+  }
+  .col {
+    display: block !important;
+  }
+  footer {
+    margin-top: 0;
+  }
+  .txt {
+    text-align: center;
+    font-size: 5vw;
+  }
+  .button-alt {
+    visibility: visible;
+    display: flex;
+  }
+}
