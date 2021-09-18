@@ -19,17 +19,20 @@
     background-color: white !important;
 }
 .jb-title{
+    cursor: default;
     margin-top: -10%;
     font-size: 12vw;
     text-align: center;
     font-family: redwing;
 }
 .jb-titles{
+    cursor: default;
     text-align: center;
     font-family: among !important;
     font-size: 18vw;
 }
 .cn2{
+    cursor: default;
     height: 100%;
     color: white;
     background-color: black;
@@ -51,6 +54,7 @@
     font-size: 5vw;
 }
 footer{
+    cursor: default;
     margin-top: 100px;
     background-color: black;
 }
