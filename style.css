@@ -75,10 +75,18 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .txt {
+    margin-left: 0;
+  }
   .jb-title {
     font-size: 20vw;
   }
   .jb-titles {
+    padding-top: 30%;
     font-size: 30vw;
   }
   .cn2 h5 {
@@ -92,9 +100,6 @@ footer {
   .row {
     display: block !important;
   }
-  .col {
-    display: block !important;
-  }
   footer {
     margin-top: 0;
   }
@@ -103,6 +108,7 @@ footer {
     font-size: 5vw;
   }
   .button-alt {
+    margin-bottom: 30%;
     visibility: visible;
     display: flex;
   }
