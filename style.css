@@ -11,22 +11,21 @@
   padding: 0;
   font-family: "Bebas Neue", cursive;
 }
+.gmbr {
+  margin-top: 3%;
+}
 .bg-trans {
   background-color: white !important;
 }
 .jb-title {
   cursor: default;
-  margin-top: -10%;
   font-size: 12vw;
   text-align: center;
   font-family: redwing;
 }
 .jb-titles {
-  margin-top: -5%;
   cursor: default;
   text-align: center;
-  font-family: among !important;
-  font-size: 18vw;
 }
 .cn2 {
   cursor: default;
@@ -83,8 +82,11 @@ footer {
     font-size: 20vw;
   }
   .jb-titles {
-    padding-top: 30%;
-    font-size: 30vw;
+    padding-top: 10%;
+  }
+  .gmbr {
+    margin-bottom: 7%;
+    width: 100px;
   }
   .cn2 h5 {
     padding-left: 0;
