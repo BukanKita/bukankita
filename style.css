@@ -6,10 +6,6 @@
   font-family: redwingl;
   src: url(assets/Redwing/Redwing-Light.otf);
 }
-@font-face {
-  font-family: among;
-  src: url(assets/among-us/AmongUs-Regular.ttf);
-}
 * {
   margin: 0;
   padding: 0;
@@ -26,6 +22,7 @@
   font-family: redwing;
 }
 .jb-titles {
+  margin-top: -5%;
   cursor: default;
   text-align: center;
   font-family: among !important;
